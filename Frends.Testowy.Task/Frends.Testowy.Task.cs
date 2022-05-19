@@ -16,7 +16,7 @@ namespace Frends.Testowy.Task
         /// <param name="options">Define if repeated multiple times. </param>
         /// <param name="cancellationToken"></param>
         /// <returns>{string Replication} </returns>
-        public static Result TestowyTask(Parameters input, [PropertyTab] Options options, CancellationToken cancellationToken)
+        public static Result Multiply(Parameters input, [PropertyTab] Options options, CancellationToken cancellationToken)
         {
             var repeats = new string[options.Amount];
 
